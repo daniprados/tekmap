@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript"  src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.tekmap.0.7.js"></script> 
+
+<script>
+	$(document).ready(function(){
+		$("#map").TekMap({lat:42.005,lng:3.006});
+		$("input:button").click(function(){
+			var loc = $("input:text").val();
+			$("#map").TekMarker({addres:loc});
+		});
+		
+	});
+</script>
+<meta charset=utf-8 />
+<title>TekMap by comunicatek.com</title>
+<style>
+  html { height: 100% }
+  body { height: 100%; margin: 0px; padding: 0px }
+
+#map { width:100%; height:430px; background-color:#ffcc00; margin:0}	
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<div id="search"><input type="text" value="La Bisbal d\'Empordà" /><input type="button" value="go" /></div>
+  <div id="map"></div>
+ <!-- Only for analitycs  
+ 		PLEASE remove for copy on your site 
+--> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-115345-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+<!--   -->
+
+</body>
+</html>​
