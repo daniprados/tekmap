@@ -1,20 +1,22 @@
 {
   "name": "tekmap",
-  "title": "jQuery Tekmap ",
-  "description": "jQuery plugin for intgrate google maps v3 with your page using jQuery.",
+  "title": "jQuery TekMap ",
+  "description": "jQuery plugin for integrate google maps v3 with your page using jQuery. It is as easy as $ ('# Map').TekMap ();",
   "keywords": [
     "googlemaps",
     "maps"
   ],
-  "version": "0.7.1",
+  "version": "0.7.2",
   "author": {
     "name": "Dani Prados ",
-    "url": "http://code.comunicatek.com"
+    "url": "http://code.comunicatek.com",
+	"email": "daniprados@gmail.com"
   },
   "maintainers": [
     {
 	"name": "Dani Prados ",
-    "url": "http://code.comunicatek.com"
+    "url": "http://code.comunicatek.com",
+	"email": "daniprados@gmail.com"
     }
   ],
   "licenses": [
