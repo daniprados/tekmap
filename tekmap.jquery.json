@@ -1,0 +1,33 @@
+{
+  "name": "tekmap",
+  "title": "jQuery Tekmap ",
+  "description": "jQuery plugin for intgrate google maps v3 with your page using jQuery.",
+  "keywords": [
+    "googlemaps",
+    "maps"
+  ],
+  "version": "0.7",
+  "author": {
+    "name": "Dani Prados ",
+    "url": "http://code.comunicatek.com"
+  },
+  "maintainers": [
+    {
+	"name": "Dani Prados ",
+    "url": "http://code.comunicatek.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+    }
+  ],
+  "bugs": "https://github.com/daniprados/tekmap/issues",
+  "homepage": "http://code.comunicatek.com/en/tekmap.html",
+  "docs": "http://code.comunicatek.com/en/tekmap.html",
+  "download": "http://code.comunicatek.com/en/tekmap.html",
+  "dependencies": {
+    "jquery": ">=1.3"
+  }
+}
