@@ -6,7 +6,7 @@
     "googlemaps",
     "maps"
   ],
-  "version": "0.7.2",
+  "version": "0.7.3",
   "author": {
     "name": "Dani Prados ",
     "url": "http://code.comunicatek.com",
@@ -27,6 +27,7 @@
   ],
   "bugs": "https://github.com/daniprados/tekmap/issues",
   "homepage": "http://code.comunicatek.com/en/tekmap.html",
+  "demo": "http://code.comunicatek.com/en/tekmap.html",
   "docs": "http://code.comunicatek.com/en/tekmap.html",
   "download": "http://code.comunicatek.com/en/tekmap.html",
   "dependencies": {
