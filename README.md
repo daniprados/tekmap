@@ -17,5 +17,16 @@
     markers : [{    lat: 42.2, lng: 3.2,  draggable:false, infowindow:"<strong>Hello</strong>" }]
  }
 )</pre>
+<p>
+	Added  html tag initialization : 
+	<pre>
+		 &lt;div class=&quot;map&quot; data-lat=&#39;42.99624282178582&#39; data-lng=&#39;1.933349609375&#39; data-markers=&#39;[{&quot;lat&quot;:42.99624282178582,&quot;lng&quot;:1.933349609375,&quot;draggable&quot;:false,&quot;infowindow&quot;:&quot;Tekmap demo by Comunicatek!&quot;}]&#39;&gt;&lt;/div&gt;
+	</pre>
+
+	and  then
+
+	<pre><p>$ (".map"). TekMap ();</p></pre>
+
+</p>
 
 More info at <a href="http://code.comunicatek.com/en/tekmap.html">here</a>.

@@ -1,7 +1,7 @@
 // TekMap by comunicatek.com  under the mit license.
 // Author:  Dani Prados
 // http://code.comunicatek.com
-// version 0.7
+// version 0.9
 (function ($, google, window) {
 	"use strict";
   //
@@ -81,7 +81,21 @@
 			myOptions = o.mapoptions,
 			latlng,
 			map,
-			$maps = $(elem);
+			$maps = $(elem), dataLat, dataLng,dataMarkers;
+
+		dataLat = $maps.data("lat");
+		if(dataLat)	{
+			o.lat = dataLat;
+		}
+		dataLng = $maps.data("lng");
+		if(dataLng)	{
+			o.lng = dataLng;
+		}
+		dataMarkers = $maps.data("markers");
+		if(dataMarkers)	{
+			o.markers = dataMarkers;
+		}		
+
 
 		latlng = new google.maps.LatLng(o.lat, o.lng);
 		myOptions.center = latlng;
